@@ -1,23 +1,36 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-
-# testing
-/coverage
-
-# production
-/build
-
-# misc
+# OS Specific
 .DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# IDE Specific
+nbproject
+.~lock.*
+.buildpath
+.idea
+.project
+.settings
+.vscode
+*.sublime-workspace
+*.swp
+*.swo
+
+# Project Specific
+/node_modules
+*.log
+/lib
+/apps/academia-mobile/.gradle
+tmp
+.changelog
+coverage/
+.eslintcache
+
+# Just testing code...
+businessman-mobile-experimental*
+
+# Other
+apps/ignored*
