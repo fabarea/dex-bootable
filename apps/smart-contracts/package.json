@@ -30,5 +30,8 @@
     "deploy:local": "hardhat run --network localhost scripts/deploy.ts",
     "console:local": "hardhat console --network localhost",
     "test": "hardhat test"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.7.0"
   }
 }
